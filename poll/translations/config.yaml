@@ -10,6 +10,7 @@ locales:
     - fr_CA  # French (Canada)
     - he  # Hebrew
     - hi  # Hindi
+    - ka # Georgian    
     - ko_KR  # Korean (Korea)
     - pt_BR  # Portuguese (Brazil)
     - pt_PT  # Portuguese (Portugal)

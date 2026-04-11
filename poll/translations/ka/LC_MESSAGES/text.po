@@ -1,0 +1,429 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-09 12:04+0000\n"
+"PO-Revision-Date: 2026-04-11 17:39+0400\n"
+"Last-Translator: Lasha Kokilashvili <lasha.kokilashvili@gmail.com>\n"
+"Language-Team: \n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.9\n"
+
+#: poll/poll.py:232
+msgid "Whether or not to display results to the user."
+msgstr "შედეგების ჩვენება მომხმარებლისთვის."
+
+#: poll/poll.py:233
+msgid "The maximum number of times a user may send a submission."
+msgstr "მომხმარებლის მიერ გამოგზავნის გამოგზავნის მაქსიმალური რაოდენობა."
+
+#: poll/poll.py:235
+msgid "Number of times the user has sent a submission."
+msgstr "რამდენჯერ გაგზავნა მომხმარებელმა გამოგზავნა."
+
+#: poll/poll.py:237
+msgid "Text to display after the user votes."
+msgstr "ტექსტი საჩვენებლად მომხმარებლის ხმის მიცემის შემდეგ."
+
+#. Translators: {field} is either "answers" or "questions".
+#: poll/poll.py:298
+#, python-brace-format
+msgid "'{field}' is not present, or not a JSON array."
+msgstr "\"{field}\" არ არის წარმოდგენილი, ან არ არის JSON მასივი."
+
+#. Translators: {noun} is either "Answer" or "Question". {item} identifies the answer or question.
+#: poll/poll.py:310
+#, python-brace-format
+msgid "{noun} {item} not a javascript object!"
+msgstr "{noun} {item} არ არის JavaScript ობიექტი!"
+
+#. Translators: {noun} is either "Answer" or "Question". {item} identifies the answer or question.
+#: poll/poll.py:319
+#, python-brace-format
+msgid "{noun} {item} contains no key."
+msgstr "{noun} {item} არ შეიცავს გასაღებს."
+
+#. Translators: {noun} is either "Answer" or "Question".
+#. {noun_lower} is the lowercase version of {noun}.
+#: poll/poll.py:331
+#, python-brace-format
+msgid ""
+"{noun} has no text or img. Please make sure all {noun_lower}s have one or "
+"the other, or both."
+msgstr ""
+"{noun} არ აქვს ტექსტი ან img. გთხოვთ, დარწმუნდეთ, რომ ყველა {noun_lower} "
+"აქვს ერთი ან მეორე, ან ორივე."
+
+#. Translators: {noun} is either "Answer" or "Question".
+#. {noun_lower} is the lowercase version of {noun}.
+#: poll/poll.py:342
+#, python-brace-format
+msgid ""
+"{noun} was added with no label. All {noun_lower}s must have labels. Please "
+"check the form. Check the form and explicitly delete {noun_lower}s if not "
+"needed."
+msgstr ""
+"{noun} დაემატა ეტიკეტის გარეშე. ყველა {noun_lower} უნდა ჰქონდეს ეტიკეტები. "
+"გთხოვთ შეამოწმოთ ფორმა. შეამოწმეთ ფორმა და აშკარად წაშალეთ {noun_lower}, თუ "
+"არ არის საჭირო."
+
+#: poll/poll.py:350
+msgid ""
+"All images must have an alternative text describing the image in a way that "
+"would allow someone to answer the poll if the image did not load."
+msgstr ""
+"ყველა სურათს უნდა ჰქონდეს ალტერნატიული ტექსტი, რომელიც აღწერს სურათს ისე, "
+"რომ ვინმეს საშუალება მისცეს უპასუხოს გამოკითხვას, თუ სურათი არ ჩაიტვირთა."
+
+#. Translators: "{noun_lower} is either "answer" or "question".
+#: poll/poll.py:362
+#, python-brace-format
+msgid "You must include at least one {noun_lower}."
+msgstr "თქვენ უნდა შეიტანოთ მინიმუმ ერთი {noun_lower}."
+
+#: poll/poll.py:410
+msgid "Maximum Submissions missing or not an integer."
+msgstr "მაქსიმალური წარდგენა აკლია ან არ არის მთელი რიცხვი."
+
+#: poll/poll.py:415
+msgid "Private results may not be False when Maximum Submissions is not 1."
+msgstr ""
+"პირადი შედეგები შეიძლება არ იყოს მცდარი, როდესაც მაქსიმალური წარდგენა არ "
+"არის 1."
+
+#: poll/poll.py:452 poll/poll.py:887
+msgid "Poll"
+msgstr "გამოკითხვა"
+
+#: poll/poll.py:453
+msgid "What is your favorite color?"
+msgstr "რომელია თქვენი საყვარელი ფერი?"
+
+#: poll/poll.py:458
+msgid "Red"
+msgstr "წითელი"
+
+#: poll/poll.py:459
+msgid "Blue"
+msgstr "ლურჯი"
+
+#: poll/poll.py:460
+msgid "Green"
+msgstr "მწვანე"
+
+#: poll/poll.py:461
+msgid "Other"
+msgstr "სხვა"
+
+#: poll/poll.py:463
+msgid "The answer options on this poll."
+msgstr "პასუხის ვარიანტები ამ გამოკითხვაზე."
+
+#: poll/poll.py:467 poll/poll.py:913
+msgid "Total tally of answers from students."
+msgstr "სტუდენტების პასუხების საერთო რაოდენობა."
+
+#: poll/poll.py:468
+msgid "The student's answer"
+msgstr "სტუდენტის პასუხი"
+
+#: poll/poll.py:683 poll/poll.py:1200
+msgid "You have already voted in this poll."
+msgstr "თქვენ უკვე მისცეს ხმა ამ გამოკითხვაში."
+
+#: poll/poll.py:688
+msgid "Answer not included with request."
+msgstr "პასუხი არ შედის მოთხოვნაში."
+
+#. Translators: {choice} uniquely identifies a specific answer belonging to a poll or survey.
+#: poll/poll.py:697
+#, python-brace-format
+msgid "No key \"{choice}\" in answers table."
+msgstr "პასუხების ცხრილში არ არის გასაღები \"{choice}\"."
+
+#: poll/poll.py:706 poll/poll.py:1208
+msgid "You have already voted as many times as you are allowed."
+msgstr "თქვენ უკვე მისცეს ხმა იმდენჯერ, რამდენიც ნებადართულია."
+
+#: poll/poll.py:736
+msgid "You must specify a question."
+msgstr "თქვენ უნდა მიუთითოთ შეკითხვა."
+
+#: poll/poll.py:739 poll/poll.py:836 poll/poll.py:1262 poll/poll.py:1390
+msgid "Answer"
+msgstr "პასუხი"
+
+#: poll/poll.py:835 poll/poll.py:1263 poll/poll.py:1389
+msgid "Question"
+msgstr "კითხვა"
+
+#: poll/poll.py:838 poll/poll.py:1391
+msgid "Submissions count"
+msgstr "გამოხმაურებების რაოდენობა"
+
+#: poll/poll.py:884
+msgid "Survey"
+msgstr "მიმოხილვა"
+
+#: poll/poll.py:890
+msgid "Yes"
+msgstr "დიახ"
+
+#: poll/poll.py:891
+msgid "No"
+msgstr "არა"
+
+#: poll/poll.py:892
+msgid "Maybe"
+msgstr "შეიძლება"
+
+#: poll/poll.py:894
+msgid "Answer choices for this Survey"
+msgstr "პასუხის არჩევანი ამ გამოკითხვისთვის"
+
+#: poll/poll.py:898
+msgid "Are you enjoying the course?"
+msgstr "გსიამოვნებთ კურსი?"
+
+#: poll/poll.py:900
+msgid "Would you recommend this course to your friends?"
+msgstr "გირჩევთ ამ კურსს თქვენს მეგობრებს?"
+
+#: poll/poll.py:904
+msgid "Do you think you will learn a lot?"
+msgstr "როგორ ფიქრობთ, ბევრს ისწავლით?"
+
+#: poll/poll.py:906
+msgid "Questions for this Survey"
+msgstr "კითხვები ამ გამოკითხვისთვის"
+
+#: poll/poll.py:915
+msgid "The user's answers"
+msgstr "მომხმარებლის პასუხები"
+
+#: poll/poll.py:1216
+msgid ""
+"Not all questions were included, or unknown questions were included. Try "
+"refreshing and trying again."
+msgstr ""
+"ყველა კითხვა არ იყო შეტანილი, ან უცნობი კითხვები შედიოდა. სცადეთ განახლება "
+"და სცადეთ ხელახლა."
+
+#. Translators: {answer_key} uniquely identifies a specific answer belonging to a poll or survey.
+#. {question_key} uniquely identifies a specific question belonging to a poll or survey.
+#: poll/poll.py:1229
+#, python-brace-format
+msgid "Found unknown answer '{answer_key}' for question key '{question_key}'"
+msgstr ""
+"ნაპოვნია უცნობი პასუხი '{answer_key}' კითხვის გასაღებისთვის '{question_key}'"
+
+#: poll/public/html/poll.html:35 poll/public/html/survey.html:53
+msgid "Submit"
+msgstr "გაგზავნა"
+
+#: poll/public/html/poll.html:40 poll/public/html/survey.html:55
+msgid "Thank you."
+msgstr "დიდი მადლობა."
+
+#: poll/public/html/poll.html:44
+#, python-format
+msgid ""
+"\n"
+"        You have used %(submissions_count_s)s out of %(max_submissions_s)s "
+"submissions.\n"
+"      "
+msgstr ""
+"\n"
+"თქვენ გამოიყენეთ %(submissions_count_s)s %(max_submissions_s)s წარდგენიდან.\n"
+"      "
+
+#: poll/public/html/poll.html:52 poll/public/html/poll_edit.html:27
+#: poll/public/html/survey.html:64
+msgid "Feedback"
+msgstr "უკუკავშირი"
+
+#: poll/public/html/poll.html:64 poll/public/html/survey.html:73
+msgid "View results"
+msgstr "შედეგების ნახვა"
+
+#: poll/public/html/poll.html:71 poll/public/html/survey.html:81
+msgid "Export results to CSV"
+msgstr "შედეგების ექსპორტი CSV-ში"
+
+#: poll/public/html/poll.html:72 poll/public/html/survey.html:82
+msgid "Download CSV"
+msgstr "ჩამოტვირთეთ CSV"
+
+#: poll/public/html/poll.html:76 poll/public/html/survey.html:86
+msgid "Student data and results CSV available for download in the LMS."
+msgstr ""
+"სტუდენტის მონაცემები და შედეგები CSV ხელმისაწვდომია LMS-ში ჩამოსატვირთად."
+
+#: poll/public/html/poll_edit.html:8
+msgid "Display Name"
+msgstr "სახელი"
+
+#: poll/public/html/poll_edit.html:15
+msgid "Question/Prompt"
+msgstr "შეკითხვა/მოთხოვნა"
+
+#: poll/public/html/poll_edit.html:16
+#, python-format
+msgid ""
+"\n"
+"                    %(link_start)sMarkdown Syntax%(link_end)s is supported.\n"
+"                "
+msgstr ""
+"\n"
+"%(link_start)sMarkdown სინტაქსი%(link_end)s მხარდაჭერილია.\n"
+"                "
+
+#: poll/public/html/poll_edit.html:23
+msgid "Enter the prompt for the user."
+msgstr "შეიყვანეთ მოთხოვნა მომხმარებლისთვის."
+
+#: poll/public/html/poll_edit.html:28
+#, python-format
+msgid ""
+"\n"
+"                %(link_start)sMarkdown Syntax%(link_end)s is supported.\n"
+"            "
+msgstr ""
+"\n"
+"%(link_start)sMarkdown სინტაქსი%(link_end)s მხარდაჭერილია.\n"
+"            "
+
+#: poll/public/html/poll_edit.html:36
+msgid ""
+"\n"
+"                    This text will be displayed for the user as some extra "
+"feedback after they have\n"
+"                    submitted their response to the poll.\n"
+"                "
+msgstr ""
+"\n"
+"ეს ტექსტი გამოჩნდება მომხმარებლისთვის, როგორც დამატებითი გამოხმაურება მას "
+"შემდეგ, რაც მათ ექნებათ\n"
+"                    გამოკითხვაზე პასუხი გამოაქვეყნა.\n"
+"                "
+
+#: poll/public/html/poll_edit.html:44
+msgid "Private Results"
+msgstr "პირადი შედეგები"
+
+#: poll/public/html/poll_edit.html:48
+msgid "True"
+msgstr "ჭეშმარიტი"
+
+#: poll/public/html/poll_edit.html:49
+msgid "False"
+msgstr "მცდარი"
+
+#: poll/public/html/poll_edit.html:53
+msgid "If this is set to True, don't display results of the poll to the user."
+msgstr ""
+"თუ ეს დაყენებულია True-ზე, არ აჩვენოთ გამოკითხვის შედეგები მომხმარებელს."
+
+#: poll/public/html/poll_edit.html:58
+msgid "Maximum Submissions"
+msgstr "მაქსიმალური წარდგენა"
+
+#: poll/public/html/poll_edit.html:63
+#, python-format
+msgid ""
+"\n"
+"                    Maximum number of times a user may submit a poll. "
+"%(bold_start)sSetting this to a value other than 1 will imply that\n"
+"                    'Private Results' should be true.%(bold_end)s Setting it "
+"to 0 will allow infinite resubmissions.\n"
+"                "
+msgstr ""
+"\n"
+"მომხმარებელს შეუძლია გამოკითხვის წარდგენის მაქსიმალური რაოდენობა. "
+"%(bold_start)s1-ის გარდა სხვა მნიშვნელობაზე დაყენება გულისხმობს, რომ\n"
+"                    \"პირადი შედეგები\" უნდა იყოს ჭეშმარიტი. %(bold_end)s 0-"
+"ზე დაყენება საშუალებას მისცემს უსასრულო ხელახლა წარდგენას.\n"
+"                "
+
+#: poll/public/html/poll_edit.html:71
+msgid "Notes:"
+msgstr "შენიშვნები:"
+
+#: poll/public/html/poll_edit.html:72
+msgid ""
+"\n"
+"                    If you change an answer's text, all students who voted "
+"for that choice will have their votes updated to\n"
+"                    the new text. You'll want to avoid changing an answer "
+"from something like 'True' to 'False', accordingly.\n"
+"                    If you delete an answer, any votes for that answer will "
+"also be deleted. Students whose choices are deleted\n"
+"                    may vote again, but will not lose course progress.\n"
+"                "
+msgstr ""
+"\n"
+"თუ თქვენ შეცვლით პასუხის ტექსტს, ყველა სტუდენტს, ვინც ხმა მისცა ამ არჩევანს, "
+"განახლდება ხმები\n"
+"                    ახალი ტექსტი. შესაბამისად, თქვენ მოგინდებათ თავიდან "
+"აიცილოთ პასუხის შეცვლა მსგავსი რამ \"ჭეშმარიტი\"-დან \"მცდარი\"-მდე.\n"
+"                    თუ თქვენ წაშლით პასუხს, ამ პასუხისთვის ნებისმიერი ხმა "
+"ასევე წაიშლება. სტუდენტები, რომელთა არჩევანიც წაიშალა\n"
+"                    შეიძლება კვლავ ხმა მისცეს, მაგრამ არ დაკარგავს კურსის "
+"პროგრესს.\n"
+"                "
+
+#: poll/public/html/poll_edit.html:81
+msgid ""
+"\n"
+"                        Questions must be similarly cared for. If a "
+"question's text is changed, any votes for that question will remain.\n"
+"                        If a question is deleted, any student who previously "
+"took the survey will be permitted to retake it, but will not\n"
+"                        lose course progress.\n"
+"                    "
+msgstr ""
+"\n"
+"კითხვები ანალოგიურად უნდა იყოს გათვალისწინებული. თუ შეკითხვის ტექსტი "
+"შეიცვლება, ამ კითხვაზე ხმის მიცემა დარჩება.\n"
+"                        თუ შეკითხვა წაიშლება, ნებისმიერ სტუდენტს, რომელმაც "
+"ადრე გაიარა გამოკითხვა, მიეცემა უფლება ხელახლა ჩააბაროს იგი, მაგრამ არა\n"
+"                        დაკარგეთ კურსის პროგრესი.\n"
+"                    "
+
+#: poll/public/html/poll_edit.html:97
+msgid "Add Answer"
+msgstr "პასუხის დამატება"
+
+#: poll/public/html/poll_edit.html:101
+msgid "Add Question"
+msgstr "კითხვის დამატება"
+
+#: poll/public/html/poll_edit.html:105
+msgid "Save"
+msgstr "შენახვა"
+
+#: poll/public/html/poll_edit.html:108
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: poll/public/html/survey.html:57
+#, python-format
+msgid ""
+"\n"
+"                You have used %(submissions_count_s)s out of "
+"%(max_submissions_s)s submissions.\n"
+"            "
+msgstr ""
+"\n"
+"თქვენ გამოიყენეთ %(submissions_count_s)s %(max_submissions_s)s წარდგენიდან.\n"
+"            "
